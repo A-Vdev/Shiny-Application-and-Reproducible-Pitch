@@ -1,0 +1,39 @@
+---
+title: "Iris Data Analysis App"
+author: "Abhijeet"
+date: "2023-11-28"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##  About The Project
+
+The course project of the Developing Data Products Course of [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) by Johns Hopkins University on Coursera.This project aims to create a Shiny application and deploy it on Rstudio's servers. Second, to  Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+## Iris Data Analysis Application
+
+Application: [Iris Data Analysis App](https://av-dev.shinyapps.io/Iris-Data-Analysis-Application/)
+Code: [Shiny-Application-and-Reproducible-Pitch](https://github.com/A-Vdev/Shiny-Application-and-Reproducible-Pitch.git)
+
+The primary goal of the Iris Trend Data Analysis Application is to empower users, including researchers, analysts, and enthusiasts, to explore and understand the Iris dataset interactively. By offering descriptive statistics,visualizations, and the potential for linear regression analysis,the application facilitates data-driven decision-making and hypothesis generation. 
+
+## About the dataset
+
+This famous (Fisher's or Anderson's) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+Iris is a data frame with 150 cases (rows) and 5 variables(columns) named Sepal.Length, Sepal.Width, Petal.Length, Petal.Width, and Species.
+```{r}
+head(iris)
+```
+## Key Advantages
+
+1. Plot and analyse every variable effortlessly.
+2. Regression and scatter plot distribution.
+3. A comprehensive analysis and all necessary descriptions can be efficiently organized and presented through a few tabs and clicks.
+This streamlined approach enhances the user experience by offering a structured layout that encapsulates key insights and functionalities. Users can seamlessly navigate between tabs to access diverse aspects of the analysis, ensuring a cohesive and user-friendly exploration of the data.
+
+### Thank you!
+
+
